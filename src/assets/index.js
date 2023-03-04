@@ -9,7 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import reactQuery from "./tech/react-query.svg";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import webpack from "./tech/webpack.png";
+import sass from "./tech/sass.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,7 +43,7 @@ export {
   close,
   css,
   docker,
-  figma,
+  reactQuery,
   git,
   html,
   javascript,
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  sass,
+  webpack,
 };

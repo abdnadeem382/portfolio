@@ -13,7 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  reactQuery,
   docker,
   meta,
   starbucks,
@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  webpack,
+  sass,
 } from "../assets";
 
 export const navLinks = [
@@ -105,12 +107,20 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "react query",
+    icon: reactQuery,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "webpack",
+    icon: webpack,
   },
 ];
 

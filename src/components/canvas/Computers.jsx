@@ -48,6 +48,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
+      className="cursor-pointer"
       frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}

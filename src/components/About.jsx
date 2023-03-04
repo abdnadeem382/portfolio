@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{
             max: 45,
             scale: 1,
-            speed: 450,
+            speed: 300,
           }}
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
