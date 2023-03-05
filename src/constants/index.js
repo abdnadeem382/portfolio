@@ -1,30 +1,24 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   reactQuery,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  emumba,
+  nova,
   carrent,
   jobit,
   tripguide,
   threejs,
-  webpack,
   sass,
+  andy,
+  james,
 } from "../assets";
 
 export const navLinks = [
@@ -52,12 +46,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -106,55 +96,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front-end Web Developer",
+    company_name: "Emumba",
+    icon: emumba,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained large applications using cutting-edge technologies",
+      "Implemented responsive and pixel perfect UI while ensuring cross-browser compatibility.",
+      "Wrote clean and reusable code using DRY principle.",
+      "Worked with a mentor to work on self learning and achieving weekly or quarterly goals. ",
+      "Reviewed merge requests to ensure better code quality and suggested better approaches to solve problems",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "We Are Nova",
+    icon: nova,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2021 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using multiple technologies including React, React Native, NextJS and ASP .NET",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products in an agile environment",
+      "Implemented responsive and pixel perfect UI while ensuring cross-browser compatibility.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
+      "Wrote reusable code and unit tests.",
+      "Performed R&Ds to implement features in an optimal way.",
+      "Worked in a Scrum or Kanban and attending BLRs, Retrospectives and Daily Standups.",
+      "Occasionally held small sessions on different technologies for colleagues.",
     ],
   },
 ];
@@ -162,27 +131,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Abdullah joined Nova a year ago as part of our internship programme. I worked with him directly on a number of internal projects, and I was impressed by his willingness to take on new challenges and learn new skills in order to solve a problem. He is a quick learner and excellent communicator, and would be a great addition to any software engineering department. I have no hesitation in recommending him.",
+    name: "Andrew Speakman",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "We Are Nova",
+    image: andy,
+  },
+  {
+    testimonial:
+      "Abdullah is a problem solver, great communicator and overall brilliant software engineer. He's been on my team for while and he's brought solid ideas to the table, whilst being able to work towards tight deadlines. He's never been afraid to reach out if he comes across blockers and he's always been on time for meetings. I would highly recommend him.",
+    name: "James Hutchinson",
+    designation: "Ex Product Manager",
+    company: "We Are Nova",
+    image: james,
   },
 ];
 

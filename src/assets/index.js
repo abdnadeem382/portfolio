@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -23,19 +22,19 @@ import threejs from "./tech/threejs.svg";
 import webpack from "./tech/webpack.png";
 import sass from "./tech/sass.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import emumba from "./company/emumba-logo.png";
+import nova from "./company/nova-logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import andy from "./company/andy-img.jpg";
+import james from "./company/james-img.jpg";
+
 export {
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -54,13 +53,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   sass,
   webpack,
+  emumba,
+  nova,
+  andy,
+  james,
 };
