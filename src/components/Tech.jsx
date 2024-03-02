@@ -9,7 +9,7 @@ const Tech = () => {
     <div className="flex flex-wrap justify-center gap-10">
       {React.Children.toArray(
         technologies.map((tech) => (
-          <div className="w-28 h-28">
+          <div className="w-28 h-28 cursor-pointer">
             <BallCanvas icon={tech.icon} />
           </div>
         ))

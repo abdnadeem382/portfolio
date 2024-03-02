@@ -15,8 +15,8 @@ const Ball = (props) => {
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
+      <ambientLight intensity={0.8} />
+      <directionalLight intensity={1} position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
@@ -45,7 +45,7 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls enableZoom={false} enablePan={false} />
         <Ball imgUrl={icon} />
       </Suspense>
       <Preload all />
